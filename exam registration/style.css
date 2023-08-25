@@ -1,0 +1,47 @@
+body{
+    margin: 20px 20px 20px  20px;
+}
+input{
+    width:200px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+}
+input:focus{
+    border: 1px solid blue;
+}
+button{
+    width:220px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: black;
+    color:white;
+}
+button:hover{
+    border: 2px solid green;
+}
+.container{
+ border:1px solid lightgray;
+ width:250px;
+ height:300px;
+ padding: 40px;
+ margin: 100px 40px 40px 450px;
+border-radius: 20px;
+}
+.loc_container{
+
+    background-color: lightcoral;
+    color:black;
+    padding: 10px;
+    
+}
+.msg_block{
+    display: block;
+}
+.msg_show{
+    display: inline;
+}
